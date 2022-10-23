@@ -6,7 +6,7 @@
 
 body {
     /* background-color: #3B9AE1; */
-    background-image: url(/assets/Marmotamaps.jpg);
+    background-image: url(./assets/Marmotamaps.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
