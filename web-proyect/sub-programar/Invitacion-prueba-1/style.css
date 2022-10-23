@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Great+Vibes&family=Kaushan+Script&family=Patrick+Hand&family=Permanent+Marker&family=Righteous&family=Silkscreen&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(feliz.png);
+    /* backdrop-filter: blur(5px); Desenfocar fondo*/ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center
+}
+
+.contenedor {
+    background-color: #ee7cffad;
+    box-shadow: 5px 5px 20px 10px rgba(255, 255, 255, 0.658);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 450px;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    margin: 45px 0px 0px 0px;
+}
+
+h2 {
+    font-family: 'Cookie', cursive;
+    font-size: 35px;
+    margin: 5px 0px 5px 0px;
+}
+
+.text {
+    width: 350px;
+    text-align: center;
+}
+
+.saludo {
+    font-family: 'Cookie', cursive;
+    font-size: 25px;
+    width: 350px;
+    text-align: center;
+    margin: 5px 0px 25px 0px;
+}
+
+.text-sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 10px 0px 20px 0px;;
+}
+
+.sub {
+    font-family: 'Cookie', cursive;
+    font-size: 25px;
+    margin: 10px 0px 10px 0px;
+    width: 350px;
+    text-align: center;
+}
+
+.botones {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 30px;
+}
+
+.no {
+    width: 10px;
+    text-align: center;
+}
+
+a {
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+    width: 145px;
+    text-align: center;
+}
+
+img {
+    width: 350px;
+}
+
+/*ADAPTAR A DISPOSITIVOS MOVILES*/
+@media (max-width: 580px) {
+    .contenedor {
+        width: 330px;
+        margin-top: 30px;
+    }
+
+    .saludo {
+        font-size: 20px;
+        width: 270px;
+        text-align: center;
+        margin: 0px 0px 20px 50px;
+    }
+
+    .sub {
+        font-size: 20px;
+        width: 270px;
+    }
+
+    img {
+        width: 270px;
+    }
+
+    h1 {
+        font-size: 50px;
+        margin: 45px 0px 0px 0px;
+    }
+    
+    h2 {
+        font-size: 30px;
+        margin: 5px 0px 5px 0px;
+    }
+    
+    a {
+        font-size: 15px;
+    }
+} 

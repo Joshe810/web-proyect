@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Chakra+Petch:wght@500&family=Noto+Sans+KR&family=Silkscreen&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url(fondo.png);
+}
+
+.contenedor {
+	background-color: rgba(72, 74, 190, 0.315);
+	box-shadow: 2px 2px 20px 2px rgba(102, 102, 101, 0.384);
+	border-radius: 30px;
+	width: 300px;
+	display: flex;
+	align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	margin: 35px 0px 0px 0px;
+	padding: 10px 0px 35px 0px;
+}
+
+h1 {
+	color: rgb(211, 211, 211);
+	text-align: center;
+	font-family: 'Chakra Petch', sans-serif;
+}
+
+p {
+	color: rgb(224, 224, 224);
+	text-align: center;
+	font-family: 'Arimo', sans-serif;
+}
+
+.numeros {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+button {
+	box-shadow: 1px 1px 10px 1px rgba(91, 238, 248, 0.384);
+    font-family: 'Arimo', sans-serif;
+    background-color: rgba(91, 238, 248, 0.514);
+	border: none;
+	width: 200px;
+	margin: 10px 0px 3px 0px;
+	padding: 10px;
+	border-radius: 10px;
+	color: #fdfdfd;
+	font-size: 15px;
+}
+
+input {
+	box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.384);
+    font-family: 'Arimo', sans-serif;
+    background-color: rgba(255, 255, 255, 0.507);
+	border: none;
+	width: 200px;
+	margin: 10px 0px 3px 0px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+button:hover {
+	background-color: rgba(26, 95, 138, 0.651);
+}
