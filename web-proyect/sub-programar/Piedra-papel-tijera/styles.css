@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Silkscreen&display=swap');
+
+body {
+    font-family: 'Silkscreen', cursive;
+    background-color: #1D1CE5;
+}
+
+#seleccionar-mascota {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    color: white;
+    font-size: 42px;
+}
+
+.subtitulo {
+    color: white;
+
+}
+
+.tarjetas, .tarjetas-ataques {
+    display: flex; /*Indica que voy a trabajar con Flex-box*/
+    gap: 10px;
+}
+
+.tarjeta-de-mokepon {
+    width: 200px;
+    height: 100px; 
+    background: #4649FF;
+    padding: 10px;
+    box-sizing: border-box; /* Para que el padding no afecte el tamaño de la caja */
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta-de-mokepon img {
+    width: 80px;
+}
+
+input {
+    display: none;
+}
+
+input:checked + label {
+    background: #b5b6f7;
+}
+
+#boton-mascota {
+    font-family: 'Silkscreen', cursive; 
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #89ff7a;
+    border: none;
+    margin: 20px 0px 0px 0px;    
+    font-size: 15px;
+}
+
+#seleccionar-ataque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-de-ataque {
+    background-color: #4649FF;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-color: transparent;
+    width: 130px;
+    font-family: 'Silkscreen', cursive; 
+    font-size: 15px;
+} 
+
+#mensajes {
+    width: 280px;
+    background: #7978FF;
+    padding: 20px;
+    margin: 20px 0px 0px 0px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#boton-reiniciar {
+    border: none;
+    color: #1D1CE5;
+    font-family: 'Silkscreen', cursive; 
+}
+
+.ataques {
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+
+.ataques-jugador, .ataques-enemigo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-de-ataque:hover {
+    background-color: #b5b6f7;
+} 
+
+/*ADAPTAR A DISPOSITIVOS MOVILES (max-width = desde 0px hasta 412px o mas)*/
+@media (max-width: 412px) {
+    .tarjetas {
+        flex-direction: column;
+    }
+
+    .tarjetas-ataques {
+        flex-direction: column;
+    }
+}
