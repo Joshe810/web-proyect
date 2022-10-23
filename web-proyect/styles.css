@@ -6,7 +6,7 @@
 
 body {
     /* background-color: #3B9AE1; */
-    background-image: url(https://i.postimg.cc/BnzMzNYy/Marmotamaps.jpg);
+    background-image: url(./assets/Marmotamaps.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -22,9 +22,8 @@ body {
     margin: 0px 90px 90px 90px;
     backdrop-filter: blur(20px);
     display: grid;
-    align-items: center;
     justify-content: center;
-    align-content: center;
+    align-items: stretch;
     grid-template-columns: 310px 310px 310px;
 
 }
@@ -55,6 +54,7 @@ p {
 
 h1 {
     font-family: 'Roboto Mono', monospace;
+    text-align: center;
 }
 
 .boton {
@@ -77,36 +77,24 @@ h1 {
     .principal {
         padding: 10px;
         margin: 50px 100px 20px 100px;
-        display: grid;
-        align-items: center;
-        justify-content: center;
+        align-items: stretch;
         align-content: center;
         grid-template-columns: 350px 350px;
     
     }
     
     .contenedor {
-        background-color: #3b99e13b;
-        box-shadow: 0px 0px 30px 2px rgb(253, 253, 253);
         border-radius: 20px;
         margin: 60px 20px 30px 20px;
         padding: 10px 10px 30px 10px;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
     }
     
     img {
         width: 250px;
-        border-radius: 20px;
     }
     
     p {
         width: 250px;
-        text-align: center;
-        font-family: 'Nunito Sans', sans-serif;
     }
     
     h1 {
@@ -114,15 +102,8 @@ h1 {
     }
     
     .boton {
-        background-color: #3020e0;
-        color: #FFFFFF;
-        padding: 10px;
-        margin: 20px 0px 0px 0px;
         width: 250px;
         text-align: center;
-        border-radius: 10px;
-        text-decoration: none;
-        font-family: 'Nunito Sans', sans-serif;
     }
 }
 
@@ -134,36 +115,23 @@ h1 {
     .principal {
         padding: 50px 0px 50px 0px;
         margin: 50px 100px 50px 100px;
-        display: grid;
-        align-items: center;
-        justify-content: center;
         align-content: center;
+        align-items: start;
         grid-template-columns: 350px;
     
     }
     
     .contenedor {
-        background-color: #3b99e13b;
-        box-shadow: 0px 0px 30px 2px rgb(253, 253, 253);
-        border-radius: 20px;
         margin: 30px 0px 30px 0px;
         padding: 10px 10px 30px 10px;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
     }
     
     img {
         width: 250px;
-        border-radius: 20px;
     }
     
     p {
         width: 250px;
-        text-align: center;
-        font-family: 'Nunito Sans', sans-serif;
     }
     
     h1 {
@@ -171,15 +139,8 @@ h1 {
     }
     
     .boton {
-        background-color: #3020e0;
-        color: #FFFFFF;
-        padding: 10px;
         margin: 20px 0px 0px 0px;
         width: 250px;
-        text-align: center;
-        border-radius: 10px;
-        text-decoration: none;
-        font-family: 'Nunito Sans', sans-serif;
     }
 }
 
@@ -187,12 +148,10 @@ h1 {
     .principal {
         padding: 10px;
         margin: 0px 100px 20px 100px;
-        display: grid;
-        align-items: center;
         justify-content: center;
         align-content: center;
+        align-items: start;
         grid-template-columns: 300px;
-    
     }
     
     .contenedor {
@@ -201,14 +160,8 @@ h1 {
         border-radius: 20px;
         margin: 30px 0px 30px 0px;
         padding: 10px 10px 30px 10px;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
     }
 }
-
 
 @media(max-width: 600px) {
     body {
@@ -216,38 +169,31 @@ h1 {
     }
 
     .principal {
+        background-color: #ffffff00;
+        box-shadow: none;
+        backdrop-filter: none;
         padding: 10px;
         margin: 0px 10px 20px 10px;
-        display: grid;
-        align-items: center;
-        justify-content: center;
+        align-items: start;
         align-content: center;
         grid-template-columns: 300px;
     
     }
     
     .contenedor {
-        background-color: #3b99e13b;
         box-shadow: 0px 0px 30px 2px rgb(253, 253, 253);
         border-radius: 20px;
         margin: 30px 0px 30px 0px;
         padding: 10px 10px 30px 10px;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
+        backdrop-filter: blur(20px);
     }
     
     img {
         width: 250px;
-        border-radius: 20px;
     }
     
     p {
         width: 250px;
-        text-align: center;
-        font-family: 'Nunito Sans', sans-serif;
     }
     
     h1 {
@@ -255,15 +201,8 @@ h1 {
     }
     
     .boton {
-        background-color: #3020e0;
-        color: #FFFFFF;
-        padding: 10px;
         margin: 20px 0px 0px 0px;
         width: 250px;
-        text-align: center;
-        border-radius: 10px;
-        text-decoration: none;
-        font-family: 'Nunito Sans', sans-serif;
     }
 }
 
@@ -278,7 +217,7 @@ h1 {
         padding: 10px;
         margin: 0px 10px 20px 10px;
         display: grid;
-        align-items: center;
+        align-items: start;
         justify-content: center;
         align-content: center;
         grid-template-columns: 300px;
