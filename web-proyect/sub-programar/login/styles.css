@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Nunito+Sans&family=Roboto+Mono:wght@500&family=Silkscreen&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(fondo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.contenedor {
+    background-color: rgba(155, 197, 245, 0.212);
+    box-shadow: 0px 0px 20px 5px rgba(189, 246, 250, 0.514);
+    backdrop-filter: blur(5px);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 350px;
+    margin-top: 100px;
+    padding: 30px 0px 30px 0px;
+}
+
+.iniciar-sesion {
+    /* font-family: 'Nunito Sans', sans-serif; */
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px 0px 20px 0px;
+}
+
+.gmail, .contraseña {
+    background-color: rgba(255, 255, 255, 0.267);
+    /* box-shadow: 0px 5px 5px 0px rgb(46, 46, 46); */
+    padding: 12px;
+    width: 230px;
+    border: 0;
+    border-radius: 10px;
+    /* border: 1px solid rgb(255, 255, 255); Elimina relieve de los bordes del input */
+    outline: none; /*Quitar resplandor de los input*/
+    margin: 10px 0px 10px 0px;
+}
+
+.olvidaste-contraseña {
+    margin: 10px 0px 20px 0px;
+}
+
+.enviar-a {
+    background-color: rgba(91, 238, 248, 0.514);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    width: 230px;
+    font-family: 'Roboto Mono', ;
+}
+
+.olvidaste {
+    color: rgb(196, 196, 196);
+}
+
+.registrese {
+    margin: 20px 0px 0px 0px;
+}
+
+.registrese-a {
+    color: rgb(24, 24, 24);
+}
+
+/*Cambiar el color de los input - placeholder*/
+.input::placeholder { 
+    color: rgb(51, 51, 51); 
+    font-family: sans-serif;
+}
