@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(polygon-scatter-haikei.svg);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.result {
+    width: 210px;
+}
+
+span {
+    color: rgb(211, 211, 211);
+    font-style: 210px;
+    font-size: 70px;
+}
+
+.result {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: rgb(172, 172, 172);
+    height: 150px;
+    width: 320px;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 40px;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    cursor: pointer;
+    border-color: #041c32;
+    border-style: solid;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: #041c329c;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 10px 5px #132f49ef;
+    padding-bottom: 30px;
+    border-radius: 25px;
+    width: 352px;
+}
+
+.percent {
+    background-color: #424e74;
+    color: black;
+}
+
+.item1 {
+    background-color: #424e74;
+}
+.item3 {
+    background-color: #141a8b;
+}
+
+.numbers, .comma {
+    background-color: #8f98b8;
+}
+
+.negative, .clear {
+    color: black;
+}
+
+.itemZero {
+    background-color: #8f98b8;
+    width: 160px;
+    border-radius: 135px;
+    grid-column: span 2;
+}
